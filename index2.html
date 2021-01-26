@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a-scene background="color: #ECECEC">
+        <a-assets>
+          <a-asset-item id="Model1" src="3dmodels/+0.00_1.gltf"/></a-asset-item>
+          <a-asset-item id="Model2" src="3dmodels/+2.40_1.gltf"/></a-asset-item>
+        </a-assets>
+        <a-entity gltf-model="#Model1" rotation='-90 0 0' ></a-entity>
+        <a-entity gltf-model="#Model2" modify-materials     ></a-entity>
+      </a-scene>
+    
+</body>
+
+</html>
